@@ -31,6 +31,10 @@
     {
       "name": "Sawt el Ghad",
       "url": "http://s4.voscast.com:7648/;stream.mp3"
-    }    
+    },    
+    {
+      "name": "Radio Al bal",
+      "url": "https://albal-lbnet2.radioca.st/stream.mp3"
+    }        
   ]
 }
