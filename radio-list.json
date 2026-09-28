@@ -19,6 +19,12 @@
     {
       "name": "Byblos Radio",
       "url": "http://byblosnights.com:6190/"
+    },
+    {
+      "name": "Sawt Kil Libnan",
+      "url": "https://audio.osina.cloud:9323/stream"
     }
+
+    
   ]
 }
