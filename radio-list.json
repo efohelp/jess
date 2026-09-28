@@ -1,0 +1,24 @@
+{
+  "stations": [
+    {
+      "name": "Sawt Lebanon",
+      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream"
+    },
+    {
+      "name": "Monte Carlo Doualiya",
+      "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+    },
+    {
+      "name": "Radio Liban Libre",
+      "url": "https://edge.mixlr.com/channel/qtqeb"
+    },
+    {
+      "name": "Adeem Radio",
+      "url": "http://usa19.fastcast4u.com/adeem"
+    },
+    {
+      "name": "Byblos Radio",
+      "url": "http://byblosnights.com:6190/"
+    }
+  ]
+}
