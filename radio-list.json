@@ -17,6 +17,22 @@
       "url": "http://de1.streamingpulse.com/ssl/9085"
     },    
     {
+      "name": "France Musique",
+      "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3"
+    },    
+    {
+      "name": "BEAU Instr",
+      "url": "http://s3.voscast.com:10038/"
+    },   
+    {
+      "name": "Your Clasical",
+      "url": "http://relax.stream.publicradio.org/relax.mp3"
+    },       
+    {
+      "name": "Classic FM UK",
+      "url": "http://ice-the.musicradio.com/ClassicFMMP3"
+    },       
+    {
       "name": "Adeem Radio",
       "url": "http://usa19.fastcast4u.com/adeem"
     },
