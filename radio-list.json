@@ -47,6 +47,7 @@
     {  "name": "EPIC CLASSICAL",         "url": "http://stream.epic-classical.com/classical-music-for-sleep" },     
     {  "name": "RMNinstrumentalL",         "url": "http://stream.instrumentalhits.de:8060/" },     
     {  "name": "Instrumentals ForeverL",         "url": "http://quincy.torontocast.com:1910/stream" },     
-    {  "name": "lbi Zaman",         "url": "http://dione.shoutca.st:8165/;" }   
+    {  "name": "lbi Zaman",         "url": "http://dione.shoutca.st:8165/;" }   ,
+    {  "name": "RADIO 70 80",         "url": "https://radiopanther.radiolebowski.com/play" }
   ]
 }
