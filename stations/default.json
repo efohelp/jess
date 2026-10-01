@@ -1,0 +1,53 @@
+{
+  "stations": [
+    {
+      "name": "Sawt Lebanon",
+      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream"
+    },
+    {
+      "name": "Monte Carlo Doualiya",
+      "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+    },
+    {
+      "name": "Radio Liban Libre",
+      "url": "https://edge.mixlr.com/channel/qtqeb"
+    },
+    {
+      "name": "3j Radio",
+      "url": "http://de1.streamingpulse.com/ssl/9085"
+    },    
+    {
+      "name": "France Musique",
+      "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3"
+    },    
+    {
+      "name": "BEAU Instr",
+      "url": "http://s3.voscast.com:10038/"
+    },   
+    {
+      "name": "Your Clasical",
+      "url": "http://relax.stream.publicradio.org/relax.mp3"
+    },       
+    {
+      "name": "Classic FM UK",
+      "url": "http://ice-the.musicradio.com/ClassicFMMP3"
+    },       
+    {
+      "name": "Adeem Radio",
+      "url": "http://usa19.fastcast4u.com/adeem"
+    },
+    {
+      "name": "Byblos Radio",
+      "url": "http://byblosnights.com:6190/"
+    },
+    {  "name": "Sawt Kil Libnan",        "url": "https://audio.osina.cloud:9323/stream"    },
+    {  "name": "radio maria arabic",     "url": "http://dreamsiteradiocp4.com:8014/stream"    },
+    {  "name": "Sawt el Ghad",           "url": "http://s4.voscast.com:7648/;stream.mp3"     },    
+    {  "name": "Radio Al bal",           "url": "https://albal-lbnet2.radioca.st/stream.mp3"     },
+    {  "name": "EPIC CLASSICAL",         "url": "http://stream.epic-classical.com/classical-music-for-sleep" },     
+    {  "name": "RMNinstrumentalL",         "url": "http://stream.instrumentalhits.de:8060/" },     
+    {  "name": "Instrumentals ForeverL",         "url": "http://quincy.torontocast.com:1910/stream" },     
+    {  "name": "lbi Zaman",         "url": "http://dione.shoutca.st:8165/;" }   ,
+    {  "name": "RADIO 70 80",         "url": "https://radiopanther.radiolebowski.com/play" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "default": "default",
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Stations",
+      "file": "stations/default.json"
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "file": "stations/lebanon.json"
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "file": "stations/news.json"
+    },
+    {
+      "id": "classical",
+      "name": "Classical",
+      "file": "stations/classical.json"
+    }    
+  ]
+}
