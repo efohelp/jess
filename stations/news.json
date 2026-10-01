@@ -1,8 +1,8 @@
 {
   "stations": [
     {
-      "name": "Sawt Lebanon",
-      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream"
+      "name": "ABC AUST",
+      "url": "http://abc.streamguys1.com/live/newsradio/icecast.audio"
     },
     {
       "name": "Monte Carlo Doualiya",
