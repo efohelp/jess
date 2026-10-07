@@ -1,58 +1,185 @@
 {
+  "name": "Default Station List",
   "stations": [
     {
+      "id": "e8d35b0bc5b6",
       "name": "Sawt Lebanon",
-      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream"
+      "shortTitle": "",
+      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
+      "icon": "",
+      "esp32": true,
+      "bose": true
     },
     {
+      "id": "8daa61993a5d",
       "name": "Monte Carlo Doualiya",
-      "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+      "shortTitle": "",
+      "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
     },
     {
+      "id": "70f99ac63f46",
       "name": "Radio Liban Libre",
-      "url": "https://edge.mixlr.com/channel/qtqeb"
+      "shortTitle": "",
+      "url": "https://edge.mixlr.com/channel/qtqeb",
+      "icon": "https://www.rll.com.lb/wp-content/uploads/2018/07/logocopy.png",
+      "esp32": true,
+      "bose": true
     },
     {
+      "id": "07e76113ae57",
       "name": "Fayruzz",
+      "shortTitle": "",
       "url": "https://stream.zeno.fm/9vrahqqfuuhvv",
-      "esp32": false
-    },   
+      "icon": "",
+      "esp32": false,
+      "bose": true
+    },
     {
+      "id": "e8af17e58cf4",
       "name": "3j Radio",
-      "url": "http://de1.streamingpulse.com/ssl/9085"
-    },    
+      "shortTitle": "",
+      "url": "http://de1.streamingpulse.com/ssl/9085",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
     {
+      "id": "221f5d6816b3",
       "name": "France Musique",
-      "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3"
-    },    
+      "shortTitle": "",
+      "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
     {
+      "id": "d9a73da67618",
       "name": "BEAU Instr",
-      "url": "http://s3.voscast.com:10038/"
-    },   
+      "shortTitle": "",
+      "url": "http://s3.voscast.com:10038/",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
     {
+      "id": "19327cebf921",
       "name": "Your Clasical",
-      "url": "http://relax.stream.publicradio.org/relax.mp3"
-    },       
+      "shortTitle": "",
+      "url": "http://relax.stream.publicradio.org/relax.mp3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
     {
+      "id": "a83a6c278556",
       "name": "Classic FM UK",
-      "url": "http://ice-the.musicradio.com/ClassicFMMP3"
-    },       
+      "shortTitle": "",
+      "url": "http://ice-the.musicradio.com/ClassicFMMP3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
     {
+      "id": "24287002fd59",
       "name": "Adeem Radio",
-      "url": "http://usa19.fastcast4u.com/adeem"
+      "shortTitle": "",
+      "url": "http://usa19.fastcast4u.com/adeem",
+      "icon": "",
+      "esp32": true,
+      "bose": true
     },
     {
+      "id": "2e24d291fdf1",
       "name": "Byblos Radio",
-      "url": "http://byblosnights.com:6190/"
+      "shortTitle": "",
+      "url": "http://byblosnights.com:6190/",
+      "icon": "",
+      "esp32": true,
+      "bose": true
     },
-    {  "name": "Sawt Kil Libnan",        "url": "https://audio.osina.cloud:9323/stream"    },
-    {  "name": "radio maria arabic",     "url": "http://dreamsiteradiocp4.com:8014/stream"    },
-    {  "name": "Sawt el Ghad",           "url": "http://s4.voscast.com:7648/;stream.mp3"     },    
-    {  "name": "Radio Al bal",           "url": "https://albal-lbnet2.radioca.st/stream.mp3"     },
-    {  "name": "EPIC CLASSICAL",         "url": "http://stream.epic-classical.com/classical-music-for-sleep" },     
-    {  "name": "RMNinstrumentalL",         "url": "http://stream.instrumentalhits.de:8060/" },     
-    {  "name": "Instrumentals ForeverL",         "url": "http://quincy.torontocast.com:1910/stream" },     
-    {  "name": "lbi Zaman",         "url": "http://dione.shoutca.st:8165/;" }   ,
-    {  "name": "RADIO 70 80",         "url": "https://radiopanther.radiolebowski.com/play" }
+    {
+      "id": "e03051b4755f",
+      "name": "Sawt Kil Libnan",
+      "shortTitle": "",
+      "url": "https://audio.osina.cloud:9323/stream",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "825f1b5148fb",
+      "name": "radio maria arabic",
+      "shortTitle": "",
+      "url": "http://dreamsiteradiocp4.com:8014/stream",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "a3e777913ba8",
+      "name": "Sawt el Ghad",
+      "shortTitle": "",
+      "url": "http://s4.voscast.com:7648/;stream.mp3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "670ce2229f05",
+      "name": "Radio Al bal",
+      "shortTitle": "",
+      "url": "https://albal-lbnet2.radioca.st/stream.mp3",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "e0f34bbba86f",
+      "name": "EPIC CLASSICAL",
+      "shortTitle": "",
+      "url": "http://stream.epic-classical.com/classical-music-for-sleep",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "03a1ab37ce14",
+      "name": "RMNinstrumentalL",
+      "shortTitle": "",
+      "url": "http://stream.instrumentalhits.de:8060/",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "e78b5056a296",
+      "name": "Instrumentals ForeverL",
+      "shortTitle": "",
+      "url": "http://quincy.torontocast.com:1910/stream",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "02aec0707503",
+      "name": "lbi Zaman",
+      "shortTitle": "",
+      "url": "http://dione.shoutca.st:8165/;",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    },
+    {
+      "id": "9e059c59603e",
+      "name": "RADIO 70 80",
+      "shortTitle": "",
+      "url": "https://radiopanther.radiolebowski.com/play",
+      "icon": "",
+      "esp32": true,
+      "bose": true
+    }
   ]
 }
