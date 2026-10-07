@@ -14,7 +14,8 @@
     },
     {
       "name": "Fay",
-      "url": "https://stream.zeno.fm/9vrahqqfuuhvv"
+      "url": "https://stream.zeno.fm/9vrahqqfuuhvv",
+      "esp32": false
     },   
     {
       "name": "3j Radio",
