@@ -2,16 +2,6 @@
   "name": "Default Stations",
   "stations": [
     {
-      "id": "e8d35b0bc5b6",
-      "name": "Sawt Lebanon",
-      "shortTitle": "",
-      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDXs_nxkzDp5qqVZ1r7X-ziCq_BkAr5z62RnfdlAfjg&s",
-      "esp32": true,
-      "bose": true,
-      "favorite": false
-    },
-    {
       "id": "07e76113ae57",
       "name": "Fayruzz",
       "shortTitle": "",
@@ -20,6 +10,16 @@
       "esp32": false,
       "bose": true,
       "favorite": true
+    },
+    {
+      "id": "e8d35b0bc5b6",
+      "name": "Sawt Lebanon",
+      "shortTitle": "",
+      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDXs_nxkzDp5qqVZ1r7X-ziCq_BkAr5z62RnfdlAfjg&s",
+      "esp32": true,
+      "bose": true,
+      "favorite": false
     },
     {
       "id": "8daa61993a5d",
