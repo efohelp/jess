@@ -39,7 +39,7 @@
       "icon": "https://www.rll.com.lb/wp-content/uploads/2018/07/logocopy.png",
       "esp32": true,
       "bose": true,
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "e8af17e58cf4",
@@ -142,6 +142,16 @@
       "favorite": false
     },
     {
+      "id": "03a1ab37ce14",
+      "name": "RMNinstrumentalL",
+      "shortTitle": "",
+      "url": "http://stream.instrumentalhits.de:8060/",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false
+    },
+    {
       "id": "670ce2229f05",
       "name": "Radio Al bal",
       "shortTitle": "",
@@ -156,16 +166,6 @@
       "name": "EPIC CLASSICAL",
       "shortTitle": "",
       "url": "http://stream.epic-classical.com/classical-music-for-sleep",
-      "icon": "",
-      "esp32": true,
-      "bose": true,
-      "favorite": false
-    },
-    {
-      "id": "03a1ab37ce14",
-      "name": "RMNinstrumentalL",
-      "shortTitle": "",
-      "url": "http://stream.instrumentalhits.de:8060/",
       "icon": "",
       "esp32": true,
       "bose": true,
