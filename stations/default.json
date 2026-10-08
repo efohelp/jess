@@ -6,7 +6,7 @@
       "name": "Sawt Lebanon",
       "shortTitle": "",
       "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
-      "icon": "",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDXs_nxkzDp5qqVZ1r7X-ziCq_BkAr5z62RnfdlAfjg&s",
       "esp32": true,
       "bose": true,
       "favorite": false
@@ -116,7 +116,7 @@
       "name": "Sawt Kil Libnan",
       "shortTitle": "",
       "url": "https://audio.osina.cloud:9323/stream",
-      "icon": "",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jOOgT7sTVOvh4zR5ae9boCdwG_P7lKX7d2vCDH6Cd9pP0UF4umaPE7U&s",
       "esp32": true,
       "bose": true,
       "favorite": false
