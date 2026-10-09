@@ -11,6 +11,61 @@
       "bose": true,
       "favorite": false,
       "preset": null
+    },
+    {
+      "id": "mv0bbdlm",
+      "name": "Radio Reve Fm",
+      "shortTitle": "",
+      "url": "https://eu9.fastcast4u.com/proxy/revelebanon",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
+    },
+    {
+      "id": "mv0bcdc2",
+      "name": "ciel FM",
+      "shortTitle": "",
+      "url": "https://l3.itworkscdn.net/itwaudio/9004/stream",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": true,
+      "preset": null
+    },
+    {
+      "id": "mv0btl9f",
+      "name": "Radio ROKS Rock-Ballads",
+      "shortTitle": "Rock-Ballads",
+      "url": "https://tavr.tvstitch.com/RadioROKS_Ballads",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
+    },
+    {
+      "id": "mv0bw0l0",
+      "name": "Retro Love",
+      "shortTitle": "",
+      "url": "https://stream.laut.fm/love",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
+    },
+    {
+      "id": "mv0cx2na",
+      "name": "fr1",
+      "shortTitle": "",
+      "url": "https://europe1.lmn.fm/europe1.aac",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
     }
   ]
 }
