@@ -231,6 +231,17 @@
       "bose": true,
       "favorite": false,
       "preset": null
+    },
+    {
+      "id": "mv0eb00a",
+      "name": "Days Old Radio",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/aqx3usbtsg0uv",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
     }
   ]
 }
