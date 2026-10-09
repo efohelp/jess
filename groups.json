@@ -20,6 +20,12 @@
       "id": "classical",
       "name": "Classical",
       "file": "stations/classical.json"
+    },
+    {
+      "id": "testing",
+      "name": "Testing",
+      "file": "stations/testing.json"
     }    
+    
   ]
 }
