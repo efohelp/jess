@@ -242,6 +242,17 @@
       "bose": true,
       "favorite": false,
       "preset": null
+    },
+    {
+      "id": "mv0edjaq",
+      "name": "Radio Star Lb Fmطرب",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/qngq01c4mfhvv",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
     }
   ]
 }
