@@ -1,8 +1,16 @@
 {
+  "name": "Testing",
   "stations": [
     {
-      "name": "Sawt Lebanon",
-      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream"
+      "id": "e8d35b0bc5b6",
+      "name": "Next Radio lb",
+      "shortTitle": "",
+      "url": "http://usa17.fastcast4u.com:5695/1",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
     }
   ]
 }
