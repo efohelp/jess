@@ -220,6 +220,17 @@
       "bose": true,
       "favorite": false,
       "preset": null
+    },
+    {
+      "id": "mv0e2yll",
+      "name": "abd elhalin",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/4nnehdnvpg8uv",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "preset": null
     }
   ]
 }
