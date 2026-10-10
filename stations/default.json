@@ -10,6 +10,7 @@
       "esp32": false,
       "bose": true,
       "favorite": true,
+      "share": true,
       "preset": null
     },
     {
@@ -21,6 +22,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": 5
     },
     {
@@ -32,6 +34,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -43,6 +46,7 @@
       "esp32": true,
       "bose": true,
       "favorite": true,
+      "share": true,
       "preset": null
     },
     {
@@ -54,6 +58,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -65,6 +70,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -76,6 +82,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": 2
     },
     {
@@ -87,6 +94,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": false,
       "preset": 3
     },
     {
@@ -98,6 +106,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -109,6 +118,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -120,6 +130,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -131,6 +142,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -142,6 +154,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -153,6 +166,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -164,6 +178,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -175,6 +190,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -186,6 +202,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -197,6 +214,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -208,6 +226,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -219,6 +238,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -230,6 +250,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -241,6 +262,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     },
     {
@@ -252,6 +274,7 @@
       "esp32": true,
       "bose": true,
       "favorite": false,
+      "share": true,
       "preset": null
     }
   ]
