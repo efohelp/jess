@@ -161,6 +161,8 @@ async function init(){
     document.title = "JESS — " + (data.name || "Default Stations");
 
     for(const station of (data.stations || [])){
+      // Missing share means shareable. Only explicit false is excluded.
+      if(station.share === false) continue;
       const card = document.createElement("button");
       card.className = "card";
       card.type = "button";
