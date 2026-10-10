@@ -325,6 +325,19 @@
       "share": true,
       "stationTitle": "left",
       "preset": null
+    },
+    {
+      "id": "01310064-a5da-4731-ba92-d3f405a3eb0b",
+      "name": "Nagham FM",
+      "shortTitle": "",
+      "url": "https://ahmsamir.radioca.st/stream",
+      "icon": "https://cdn-profiles.tunein.com/s212844/images/logod.png?t=636516255222730000",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "stationTitle": "center",
+      "preset": null
     }
   ]
 }
