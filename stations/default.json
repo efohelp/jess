@@ -11,6 +11,7 @@
       "bose": true,
       "favorite": true,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -23,6 +24,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": 5
     },
     {
@@ -35,6 +37,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -47,6 +50,7 @@
       "bose": true,
       "favorite": true,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -59,6 +63,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -71,6 +76,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -83,6 +89,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "hide",
       "preset": null
     },
     {
@@ -95,6 +102,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": 2
     },
     {
@@ -107,6 +115,7 @@
       "bose": true,
       "favorite": false,
       "share": false,
+      "stationTitle": "left",
       "preset": 3
     },
     {
@@ -119,6 +128,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -131,6 +141,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -143,6 +154,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -155,6 +167,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -167,6 +180,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -179,6 +193,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -191,6 +206,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -203,6 +219,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -215,6 +232,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -227,6 +245,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -239,6 +258,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -251,6 +271,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -263,6 +284,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -275,6 +297,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     },
     {
@@ -287,6 +310,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
+      "stationTitle": "left",
       "preset": null
     }
   ]
