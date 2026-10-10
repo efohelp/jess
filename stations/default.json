@@ -74,6 +74,18 @@
       "preset": null
     },
     {
+      "id": "115b4299-abc2-4cb9-a443-9d6cb06a20d7",
+      "name": "Jabal Lebnan",
+      "shortTitle": "",
+      "url": "https://streaming.nrjaudio.fm/ousra9m4z85f",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/jabal-libnan.png",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "preset": null
+    },
+    {
       "id": "221f5d6816b3",
       "name": "France Musique",
       "shortTitle": "",
@@ -271,18 +283,6 @@
       "shortTitle": "",
       "url": "https://stream.zeno.fm/qngq01c4mfhvv",
       "icon": "",
-      "esp32": true,
-      "bose": true,
-      "favorite": false,
-      "share": true,
-      "preset": null
-    },
-    {
-      "id": "115b4299-abc2-4cb9-a443-9d6cb06a20d7",
-      "name": "Jabal Lebnan",
-      "shortTitle": "",
-      "url": "https://streaming.nrjaudio.fm/ousra9m4z85f",
-      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/jabal-libnan.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
