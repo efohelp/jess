@@ -364,6 +364,19 @@
       "share": true,
       "stationTitle": "left",
       "preset": null
+    },
+    {
+      "id": "6d8f5498-96a1-4f06-b3b5-2bcd7dd8e28f",
+      "name": "Rotana Radio",
+      "shortTitle": "",
+      "url": "http://45.63.116.205:8000/stream",
+      "icon": "https://cdn-profiles.tunein.com/s93633/images/logod.jpg?t=637401008590000000",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "stationTitle": "center",
+      "preset": null
     }
   ]
 }
