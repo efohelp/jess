@@ -312,6 +312,19 @@
       "share": true,
       "stationTitle": "left",
       "preset": null
+    },
+    {
+      "id": "3dfcf6a4-9f88-42b5-b952-0de93a5b0ec5",
+      "name": "Al Wisal",
+      "shortTitle": "",
+      "url": "http://stream.zeno.fm/577v5g7meg8uv",
+      "icon": "",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "stationTitle": "left",
+      "preset": null
     }
   ]
 }
