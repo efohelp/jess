@@ -58,7 +58,7 @@
       "name": "Sawt Kil Libnan",
       "shortTitle": "",
       "url": "https://audio.osina.cloud:9323/stream",
-      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/sawt-kil-libnan.png.png",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/sawt-kil-libnan.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
