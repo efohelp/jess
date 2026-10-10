@@ -42,15 +42,28 @@ h1{margin:0;font-size:1.4rem}
 .card:active{transform:scale(.985)}
 .card.playing{outline:2px solid var(--accent);outline-offset:1px}
 .art{
-  aspect-ratio:1.5/1;
+  aspect-ratio:1.42/1;
   background:linear-gradient(135deg,#2b3040,#15171d);
   display:grid;place-items:center;overflow:hidden;
   font-size:1.7rem;font-weight:800;color:#cbd3ff;
 }
-.art img{width:100%;height:100%;object-fit:cover;display:block}
+.art img{
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  object-position:center;
+  display:block;
+}
 .name{
-  padding:8px;font-weight:700;font-size:.8rem;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  min-height:23px;
+  padding:3px 7px 4px;
+  background:rgba(25,28,34,.82);
+  font-weight:700;
+  font-size:.76rem;
+  line-height:1;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 .player{
   position:sticky;bottom:8px;margin-top:14px;
@@ -65,8 +78,12 @@ audio{width:100%;height:38px}
 @media(max-width:560px){
   main{padding:10px}
   .grid{gap:7px}
-  .name{font-size:.72rem;padding:7px}
-  .art{font-size:1.4rem}
+  .art{aspect-ratio:1.35/1;font-size:1.4rem}
+  .name{
+    min-height:20px;
+    padding:2px 5px 3px;
+    font-size:.68rem;
+  }
 }
 </style>
 </head>
@@ -74,7 +91,7 @@ audio{width:100%;height:38px}
 <main>
   <header>
     <div>
-      <h1>JESS Radio</h1> 
+      <h1>JESS Radio</h1>
       <div class="sub">Default Stations — tap a station to play</div>
     </div>
   </header>
