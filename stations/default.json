@@ -37,7 +37,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
-      "stationTitle": "left",
+      "stationTitle": "hide",
       "preset": null
     },
     {
@@ -50,7 +50,7 @@
       "bose": true,
       "favorite": true,
       "share": true,
-      "stationTitle": "left",
+      "stationTitle": "hide",
       "preset": null
     },
     {
@@ -63,7 +63,7 @@
       "bose": true,
       "favorite": false,
       "share": true,
-      "stationTitle": "left",
+      "stationTitle": "hide",
       "preset": null
     },
     {
