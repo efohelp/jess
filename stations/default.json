@@ -61,7 +61,7 @@
       "name": "3j Radio",
       "shortTitle": "",
       "url": "http://de1.streamingpulse.com/ssl/9085",
-      "icon": "",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIEuBzKLcAdcT8MyUTpncBkVUCo-TRJMKoeI2ggMiSjw&s=10",
       "esp32": true,
       "bose": true,
       "favorite": false,
