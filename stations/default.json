@@ -32,7 +32,7 @@
       "name": "Sawt Lebanon",
       "shortTitle": "",
       "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDXs_nxkzDp5qqVZ1r7X-ziCq_BkAr5z62RnfdlAfjg&s",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/sawt-libnan.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
