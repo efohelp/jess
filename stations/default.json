@@ -338,6 +338,19 @@
       "share": true,
       "stationTitle": "center",
       "preset": null
+    },
+    {
+      "id": "a4b95ffb-6516-4fad-97d5-d5837e2fd15b",
+      "name": "Al karma fm",
+      "shortTitle": "",
+      "url": "https://broadcast.shoutstream.co.uk/stream/8112",
+      "icon": "https://cdn-profiles.tunein.com/s352111/images/logod.png?t=639052093240000000",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "stationTitle": "center",
+      "preset": null
     }
   ]
 }
