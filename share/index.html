@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101114">
+<title>JESS — Default Stations</title>
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0e0f12;--panel:#181b21;--panel2:#22262e;
+  --text:#f5f6fa;--muted:#aeb4c0;--accent:#7697ff;--border:#343945;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+main{max-width:900px;margin:auto;padding:18px}
+header{
+  display:flex;align-items:end;justify-content:space-between;
+  gap:12px;margin-bottom:16px;
+}
+h1{margin:0;font-size:1.4rem}
+.sub{color:var(--muted);font-size:.82rem;margin-top:3px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+.card{
+  border:1px solid var(--border);
+  border-radius:13px;
+  overflow:hidden;
+  background:var(--panel);
+  cursor:pointer;
+  color:inherit;
+  text-align:left;
+  padding:0;
+  min-width:0;
+}
+.card:active{transform:scale(.985)}
+.card.playing{outline:2px solid var(--accent);outline-offset:1px}
+.art{
+  aspect-ratio:1.5/1;
+  background:linear-gradient(135deg,#2b3040,#15171d);
+  display:grid;place-items:center;overflow:hidden;
+  font-size:1.7rem;font-weight:800;color:#cbd3ff;
+}
+.art img{width:100%;height:100%;object-fit:cover;display:block}
+.name{
+  padding:8px;font-weight:700;font-size:.8rem;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.player{
+  position:sticky;bottom:8px;margin-top:14px;
+  background:rgba(24,27,33,.96);
+  border:1px solid var(--border);
+  border-radius:13px;padding:10px;
+  backdrop-filter:blur(10px);
+}
+.now{font-weight:700;margin-bottom:7px}
+.hint{font-size:.73rem;color:var(--muted);margin-top:6px}
+audio{width:100%;height:38px}
+@media(max-width:560px){
+  main{padding:10px}
+  .grid{gap:7px}
+  .name{font-size:.72rem;padding:7px}
+  .art{font-size:1.4rem}
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>JESS Radio</h1>
+      <div class="sub">Default Stations — tap a station to play</div>
+    </div>
+  </header>
+
+  <div id="grid" class="grid"></div>
+
+  <div class="player">
+    <div id="now" class="now">Select a station</div>
+    <audio id="audio" controls playsinline></audio>
+    <div class="hint">
+      HTTPS stations play inside this page. HTTP-only streams are opened directly
+      so your phone can hand them to a compatible media player.
+    </div>
+  </div>
+</main>
+
+<script>
+const grid = document.getElementById("grid");
+const audio = document.getElementById("audio");
+const now = document.getElementById("now");
+let activeCard = null;
+
+function initials(name){
+  return (name || "?")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0,2)
+    .map(x => x[0])
+    .join("")
+    .toUpperCase();
+}
+
+function escapeHtml(value){
+  return String(value ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  })[c]);
+}
+
+async function playStation(station, card){
+  if(activeCard) activeCard.classList.remove("playing");
+  activeCard = card;
+  card.classList.add("playing");
+  now.textContent = station.name || "Station";
+
+  if(/^https:\/\//i.test(station.url || "")){
+    audio.src = station.url;
+    try{
+      await audio.play();
+    }catch(err){
+      // Some radio servers/codecs refuse browser playback.
+      window.location.href = station.url;
+    }
+  }else{
+    audio.pause();
+    audio.removeAttribute("src");
+    audio.load();
+    window.location.href = station.url;
+  }
+}
+
+async function init(){
+  try{
+    const response = await fetch("../stations/default.json", {cache:"no-store"});
+    if(!response.ok) throw new Error("Unable to load Default Stations");
+    const data = await response.json();
+
+    document.title = "JESS — " + (data.name || "Default Stations");
+
+    for(const station of (data.stations || [])){
+      const card = document.createElement("button");
+      card.className = "card";
+      card.type = "button";
+
+      const art = document.createElement("div");
+      art.className = "art";
+
+      if(station.icon){
+        const img = document.createElement("img");
+        img.src = station.icon;
+        img.alt = "";
+        img.addEventListener("error", () => {
+          art.innerHTML = "<span>" + escapeHtml(initials(station.name)) + "</span>";
+        }, {once:true});
+        art.appendChild(img);
+      }else{
+        art.innerHTML = "<span>" + escapeHtml(initials(station.name)) + "</span>";
+      }
+
+      const label = document.createElement("div");
+      label.className = "name";
+      label.textContent = station.shortTitle || station.name;
+
+      card.append(art, label);
+      card.addEventListener("click", () => playStation(station, card));
+      grid.appendChild(card);
+    }
+  }catch(err){
+    grid.innerHTML =
+      '<div style="grid-column:1/-1;color:#ff9c9c">' +
+      "Could not load playlist: " + escapeHtml(err.message) +
+      "</div>";
+  }
+}
+
+init();
+</script>
+</body>
+</html>
