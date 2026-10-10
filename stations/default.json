@@ -149,7 +149,7 @@
       "name": "Adeem Radio",
       "shortTitle": "",
       "url": "http://usa19.fastcast4u.com/adeem",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/adeem-radio.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
