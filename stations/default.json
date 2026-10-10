@@ -93,6 +93,19 @@
       "preset": null
     },
     {
+      "id": "24287002fd59",
+      "name": "Adeem Radio",
+      "shortTitle": "",
+      "url": "http://usa19.fastcast4u.com/adeem",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/adeem-radio.png",
+      "esp32": true,
+      "bose": true,
+      "favorite": false,
+      "share": true,
+      "stationTitle": "hide",
+      "preset": null
+    },
+    {
       "id": "221f5d6816b3",
       "name": "France Musique",
       "shortTitle": "",
@@ -137,19 +150,6 @@
       "shortTitle": "",
       "url": "http://ice-the.musicradio.com/ClassicFMMP3",
       "icon": "",
-      "esp32": true,
-      "bose": true,
-      "favorite": false,
-      "share": true,
-      "stationTitle": "left",
-      "preset": null
-    },
-    {
-      "id": "24287002fd59",
-      "name": "Adeem Radio",
-      "shortTitle": "",
-      "url": "http://usa19.fastcast4u.com/adeem",
-      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/adeem-radio.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
