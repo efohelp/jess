@@ -19,7 +19,7 @@
       "name": "Monte Carlo Doualiya",
       "shortTitle": "",
       "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
-      "icon": "https://www.radio.net/175/mcd.png?version=a06e19323af44fc0a2bb9d92be1e286b812ed142",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/monte-carlo.png",
       "esp32": true,
       "bose": true,
       "favorite": false,
