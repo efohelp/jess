@@ -65,6 +65,9 @@ h1{margin:0;font-size:1.4rem}
   overflow:hidden;
   text-overflow:ellipsis;
 }
+.name.title-center{text-align:center}
+.name.title-hide{display:none}
+.art.title-expanded{aspect-ratio:1.18/1}
 .player{
   position:sticky;bottom:8px;margin-top:14px;
   background:rgba(24,27,33,.96);
@@ -184,6 +187,18 @@ async function init(){
 
       const label = document.createElement("div");
       label.className = "name";
+
+      const stationTitleMode =
+        ["left","center","hide"].includes(station.stationTitle)
+          ? station.stationTitle
+          : "left";
+
+      if(stationTitleMode === "center") label.classList.add("title-center");
+      if(stationTitleMode === "hide"){
+        label.classList.add("title-hide");
+        art.classList.add("title-expanded");
+      }
+
       label.textContent = station.shortTitle || station.name;
 
       card.append(art, label);
