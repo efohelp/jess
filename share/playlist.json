@@ -1,56 +1,137 @@
 {
-  "name": "Lebanon",
+  "name": "Default Stations",
   "stations": [
     {
-      "id": "e8d35b0bc5b6",
-      "name": "Sawt Lebanon",
+      "id": "07e76113ae57",
+      "name": "Fayruz",
       "shortTitle": "",
-      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
-      "icon": "",
+      "url": "https://stream.zeno.fm/9vrahqqfuuhvv",
+      "icon": "./artwork/07e76113ae57.jpg",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "hide"
     },
     {
       "id": "8daa61993a5d",
       "name": "Monte Carlo Doualiya",
       "shortTitle": "",
       "url": "http://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
-      "icon": "",
+      "icon": "./artwork/monte-carlo.png",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "hide"
+    },
+    {
+      "id": "e8d35b0bc5b6",
+      "name": "Sawt Lebanon",
+      "shortTitle": "",
+      "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
+      "icon": "./artwork/sawt-libnan.png",
+      "share": true,
+      "stationTitle": "hide"
     },
     {
       "id": "70f99ac63f46",
       "name": "Radio Liban Libre",
       "shortTitle": "",
       "url": "https://edge.mixlr.com/channel/qtqeb",
-      "icon": "",
+      "icon": "https://www.rll.com.lb/wp-content/uploads/2018/07/logocopy.png",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "hide"
+    },
+    {
+      "id": "e03051b4755f",
+      "name": "Sawt Kil Libnan",
+      "shortTitle": "",
+      "url": "https://audio.osina.cloud:9323/stream",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/sawt-kil-libnan.png",
+      "share": true,
+      "stationTitle": "hide"
     },
     {
       "id": "e8af17e58cf4",
       "name": "3j Radio",
       "shortTitle": "",
       "url": "http://de1.streamingpulse.com/ssl/9085",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/3j-radio.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "115b4299-abc2-4cb9-a443-9d6cb06a20d7",
+      "name": "Jabal Lebnan",
+      "shortTitle": "",
+      "url": "https://streaming.nrjaudio.fm/ousra9m4z85f",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/jabal-libnan.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "24287002fd59",
+      "name": "Adeem Radio",
+      "shortTitle": "",
+      "url": "http://usa19.fastcast4u.com/adeem",
+      "icon": "https://raw.githubusercontent.com/efohelp/jess/main/icons/adeem-radio.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "3dfcf6a4-9f88-42b5-b952-0de93a5b0ec5",
+      "name": "Al Wisal",
+      "shortTitle": "",
+      "url": "http://stream.zeno.fm/577v5g7meg8uv",
+      "icon": "https://cdn-profiles.tunein.com/s87938/images/logod.jpg?t=638880392580000000",
       "share": true,
       "stationTitle": "left"
+    },
+    {
+      "id": "mv0edjaq",
+      "name": "Radio Star Lb Fmطرب",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/qngq01c4mfhvv",
+      "icon": "./artwork/radio-star-lb.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "857eb5ac-2ec7-4eb4-9294-3a2c142be830",
+      "name": "Radio al Rayan",
+      "shortTitle": "",
+      "url": "https://broadcast.shoutstream.co.uk:8078/stream",
+      "icon": "./artwork/radio-al-rayan.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "12a26adb-72f0-4877-8302-904843dd3b35",
+      "name": "lbi radio",
+      "shortTitle": "",
+      "url": "https://live.lbiradio.com/listen/station_1/1?type=http&amp;nocache=91",
+      "icon": "./artwork/lbi-radio.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "02aec0707503",
+      "name": "lbi Zaman",
+      "shortTitle": "",
+      "url": "http://dione.shoutca.st:8165/;",
+      "icon": "./artwork/lbi-zaman.png",
+      "share": true,
+      "stationTitle": "hide"
+    },
+    {
+      "id": "mv0e2yll",
+      "name": "RADIO NAGHAM TARAB",
+      "shortTitle": "NAGHAM TARAB",
+      "url": "https://stream.zeno.fm/4nnehdnvpg8uv",
+      "icon": "./artwork/radio-nagham-tarab.png",
+      "share": true,
+      "stationTitle": "hide"
     },
     {
       "id": "221f5d6816b3",
       "name": "France Musique",
       "shortTitle": "",
       "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
-      "id": "d9a73da67618",
-      "name": "BEAU Instr",
-      "shortTitle": "",
-      "url": "http://s3.voscast.com:10038/",
       "icon": "",
       "share": true,
       "stationTitle": "left"
@@ -74,28 +155,10 @@
       "stationTitle": "left"
     },
     {
-      "id": "24287002fd59",
-      "name": "Adeem Radio",
-      "shortTitle": "",
-      "url": "http://usa19.fastcast4u.com/adeem",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
       "id": "2e24d291fdf1",
-      "name": "Byblos Radio",
+      "name": "Byblos Rad",
       "shortTitle": "",
       "url": "http://byblosnights.com:6190/",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
-      "id": "e03051b4755f",
-      "name": "Sawt Kil Libnan",
-      "shortTitle": "",
-      "url": "https://audio.osina.cloud:9323/stream",
       "icon": "",
       "share": true,
       "stationTitle": "left"
@@ -119,6 +182,15 @@
       "stationTitle": "left"
     },
     {
+      "id": "03a1ab37ce14",
+      "name": "RMNinstrumentalL",
+      "shortTitle": "",
+      "url": "http://stream.instrumentalhits.de:8060/",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
       "id": "670ce2229f05",
       "name": "Radio Al bal",
       "shortTitle": "",
@@ -137,28 +209,10 @@
       "stationTitle": "left"
     },
     {
-      "id": "03a1ab37ce14",
-      "name": "RMNinstrumentalL",
-      "shortTitle": "",
-      "url": "http://stream.instrumentalhits.de:8060/",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
       "id": "e78b5056a296",
       "name": "Instrumentals ForeverL",
       "shortTitle": "",
       "url": "http://quincy.torontocast.com:1910/stream",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
-      "id": "02aec0707503",
-      "name": "lbi Zaman",
-      "shortTitle": "",
-      "url": "http://dione.shoutca.st:8165/;",
       "icon": "",
       "share": true,
       "stationTitle": "left"
@@ -171,6 +225,51 @@
       "icon": "",
       "share": true,
       "stationTitle": "left"
+    },
+    {
+      "id": "mv0eb00a",
+      "name": "Days Old Radio",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/aqx3usbtsg0uv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "01310064-a5da-4731-ba92-d3f405a3eb0b",
+      "name": "Nagham FM",
+      "shortTitle": "",
+      "url": "https://ahmsamir.radioca.st/stream",
+      "icon": "https://cdn-profiles.tunein.com/s212844/images/logod.png?t=636516255222730000",
+      "share": true,
+      "stationTitle": "center"
+    },
+    {
+      "id": "a4b95ffb-6516-4fad-97d5-d5837e2fd15b",
+      "name": "Al karma fm",
+      "shortTitle": "",
+      "url": "https://broadcast.shoutstream.co.uk/stream/8112",
+      "icon": "https://cdn-profiles.tunein.com/s352111/images/logod.png?t=639052093240000000",
+      "share": true,
+      "stationTitle": "center"
+    },
+    {
+      "id": "d42cc1b5-b21c-482c-bf0c-f3ad52f3ca16",
+      "name": "Tarab",
+      "shortTitle": "",
+      "url": "http://45.63.116.205:8000/stream3",
+      "icon": "https://cdn-profiles.tunein.com/s257050/images/logod.jpg?t=637399390840000000",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "6d8f5498-96a1-4f06-b3b5-2bcd7dd8e28f",
+      "name": "Rotana Radio",
+      "shortTitle": "",
+      "url": "http://45.63.116.205:8000/stream",
+      "icon": "https://cdn-profiles.tunein.com/s93633/images/logod.jpg?t=637401008590000000",
+      "share": true,
+      "stationTitle": "center"
     }
   ]
 }
