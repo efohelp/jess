@@ -23,6 +23,7 @@ header{
 }
 h1{margin:0;font-size:1.4rem}
 .sub{color:var(--muted);font-size:.82rem;margin-top:3px}
+.instructions{margin-top:9px;padding:9px 11px;border:1px solid var(--border);border-radius:10px;background:rgba(24,27,33,.72);color:var(--muted);font-size:.78rem;line-height:1.42}
 .grid{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
@@ -95,7 +96,13 @@ audio{width:100%;height:38px}
   <header>
     <div>
       <h1>JESS Radio</h1>
-      <div id="playlistSubtitle" class="sub">Shared playlist — tap a station to play</div>
+      <div id="playlistSubtitle" class="sub">Shared playlist</div>
+      <div class="instructions">
+        Tap a station to play. HTTPS stations play directly on this page.
+        HTTP-only stations open separately so your phone can hand the stream
+        to a compatible media player. If a separate player opens, use
+        <strong>Back</strong> to return to this playlist.
+      </div>
     </div>
   </header>
 
@@ -104,10 +111,6 @@ audio{width:100%;height:38px}
   <div class="player">
     <div id="now" class="now">Select a station</div>
     <audio id="audio" controls playsinline></audio>
-    <div class="hint">
-      HTTPS stations play inside this page. HTTP-only streams are opened directly
-      so your phone can hand them to a compatible media player.
-    </div>
   </div>
 </main>
 
@@ -163,7 +166,7 @@ async function init(){
 
     document.title = "JESS — " + (data.name || "Shared Playlist");
     const subtitle=document.getElementById("playlistSubtitle");
-    if(subtitle) subtitle.textContent=(data.name || "Shared Playlist")+" — tap a station to play";
+    if(subtitle) subtitle.textContent=(data.name || "Shared Playlist");
 
     for(const station of (data.stations || [])){
       // Missing share means shareable. Only explicit false is excluded.
