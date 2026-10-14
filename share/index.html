@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#101114">
-<title>JESS — Default Stations</title>
+<title>JESS Radio</title>
 <style>
 :root{
   color-scheme:dark;
@@ -95,7 +95,7 @@ audio{width:100%;height:38px}
   <header>
     <div>
       <h1>JESS Radio</h1>
-      <div class="sub">Default Stations — tap a station to play</div>
+      <div id="playlistSubtitle" class="sub">Shared playlist — tap a station to play</div>
     </div>
   </header>
 
@@ -157,11 +157,13 @@ async function playStation(station, card){
 
 async function init(){
   try{
-    const response = await fetch("../stations/default.json", {cache:"no-store"});
-    if(!response.ok) throw new Error("Unable to load Default Stations");
+    const response = await fetch("./playlist.json", {cache:"no-store"});
+    if(!response.ok) throw new Error("Unable to load shared playlist");
     const data = await response.json();
 
-    document.title = "JESS — " + (data.name || "Default Stations");
+    document.title = "JESS — " + (data.name || "Shared Playlist");
+    const subtitle=document.getElementById("playlistSubtitle");
+    if(subtitle) subtitle.textContent=(data.name || "Shared Playlist")+" — tap a station to play";
 
     for(const station of (data.stations || [])){
       // Missing share means shareable. Only explicit false is excluded.
