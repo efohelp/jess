@@ -128,6 +128,33 @@
       "stationTitle": "hide"
     },
     {
+      "id": "mv0eb00a",
+      "name": "Days Old Radio",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/aqx3usbtsg0uv",
+      "icon": "https://static.mytuner.mobi/media/tvos_radios/ftshahyqhjur.png",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "a1c28f55-844a-4b75-b5d4-fe85923c8f13",
+      "name": "راديو 6060 إف إم",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/xda10sbtsg0uv",
+      "icon": "https://static.mytuner.mobi/media/tvos_radios/234/rdyw-6060-f-m.da5a592b.jpg",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "83bf890f-d7ea-4187-a247-2e6a114f5674",
+      "name": "um kulthum",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/zsgrfxg71s8uv",
+      "icon": "https://static.mytuner.mobi/media/tvos_radios/794/rdyw-m-klthwm.c33dca10.png",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
       "id": "221f5d6816b3",
       "name": "France Musique",
       "shortTitle": "",
@@ -197,7 +224,8 @@
       "url": "https://albal-lbnet2.radioca.st/stream.mp3",
       "icon": "",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "left",
+      "language": "Arabic"
     },
     {
       "id": "e0f34bbba86f",
@@ -222,15 +250,6 @@
       "name": "RADIO 70 80",
       "shortTitle": "",
       "url": "https://radiopanther.radiolebowski.com/play",
-      "icon": "",
-      "share": true,
-      "stationTitle": "left"
-    },
-    {
-      "id": "mv0eb00a",
-      "name": "Days Old Radio",
-      "shortTitle": "",
-      "url": "https://stream.zeno.fm/aqx3usbtsg0uv",
       "icon": "",
       "share": true,
       "stationTitle": "left"
@@ -270,6 +289,73 @@
       "icon": "https://cdn-profiles.tunein.com/s93633/images/logod.jpg?t=637401008590000000",
       "share": true,
       "stationTitle": "center"
+    },
+    {
+      "id": "mv8mjjcu",
+      "name": "Le Figaro Radio",
+      "shortTitle": "",
+      "url": "https://stream.rcs.revma.com/hbm385tup42vv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.radioplug.co.uk/channel/Le-Figaro-Radio"
+    },
+    {
+      "id": "mv8sv0yu",
+      "name": "راديو-قديمك-نديمك-مباشر",
+      "shortTitle": "",
+      "url": "https://n04.radiojar.com/6suq71hpwtzuv.mp3",
+      "icon": "https://radio.qassimy.com/wp-content/uploads/2026/08/%D8%B1%D8%A7%D8%AF%D9%8A%D9%88-%D9%82%D8%AF%D9%8A%D9%85%D9%83-%D9%86%D8%AF%D9%8A%D9%85%D9%83-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1.jpg",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://radio.qassimy.com/%d8%b1%d8%a7%d8%af%d9%8a%d9%88-%d9%82%d8%af%d9%8a%d9%85%d9%83-%d9%86%d8%af%d9%8a%d9%85%d9%83-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/"
+    },
+    {
+      "id": "mv8t84hz",
+      "name": "راديو-طرب",
+      "shortTitle": "",
+      "url": "https://stream-288.surfernetwork.com/fy8achbq97zuv",
+      "icon": "https://radio.qassimy.com/wp-content/uploads/2026/09/%D8%B1%D8%A7%D8%AF%D9%8A%D9%88-%D8%B7%D8%B1%D8%A8-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1.png",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mv8teanz",
+      "name": "ذكريات-لبنان",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/dv8pwqdb5p8uv",
+      "icon": "https://radio.qassimy.com/wp-content/uploads/2026/06/%D8%A5%D8%B0%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D8%BA%D8%A7%D9%86%D9%8A-%D8%B0%D9%83%D8%B1%D9%8A%D8%A7%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D8%B2%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D9%84-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1.webp",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://radio.qassimy.com/%d8%a5%d8%b0%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%ba%d8%a7%d9%86%d9%8a-%d8%b0%d9%83%d8%b1%d9%8a%d8%a7%d8%aa-%d9%84%d8%a8%d9%86%d8%a7%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/"
+    },
+    {
+      "id": "mv8u0ca7",
+      "name": "Radio Orient France",
+      "shortTitle": "",
+      "url": "https://stream.rcs.revma.com/7hnrkawf4p8uv.mp3",
+      "icon": "https://static2.mytuner.mobi/media/tvos_radios/224/radio-orient.d31c505e.png",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mv8u7wb3",
+      "name": "Radio Orient Beirut",
+      "shortTitle": "",
+      "url": "https://audio-edge-qse4n.yyz.g.radiomast.io/69a2563f-dc86-4b76-a823-a4c314b08bdf",
+      "icon": "https://radioorient.live/static/images/RadioOrientLogo.png",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mv8ubtzj",
+      "name": "ME Radio",
+      "shortTitle": "",
+      "url": "https://listen.radioking.com/radio/343456/stream/447619",
+      "icon": "https://image.radioking.io/radios/343456/coverdefault/60de317e-5e83-4f0b-8c08-347f2959a5a4.jpeg",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.middleeastradio.net/"
     }
   ]
 }
