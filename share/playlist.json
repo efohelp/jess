@@ -202,12 +202,12 @@
     },
     {
       "id": "mv8t84hz",
-      "name": "راديو-طرب",
+      "name": "RADIO TARAB",
       "shortTitle": "",
       "url": "https://stream-288.surfernetwork.com/fy8achbq97zuv",
       "icon": "https://radio.qassimy.com/wp-content/uploads/2026/09/%D8%B1%D8%A7%D8%AF%D9%8A%D9%88-%D8%B7%D8%B1%D8%A8-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1.png",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "hide"
     },
     {
       "id": "mv8teanz",
@@ -263,7 +263,8 @@
       "url": "http://relax.stream.publicradio.org/relax.mp3",
       "icon": "",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "left",
+      "genre": "Classical, Soft"
     },
     {
       "id": "a83a6c278556",
@@ -272,7 +273,8 @@
       "url": "http://ice-the.musicradio.com/ClassicFMMP3",
       "icon": "",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "left",
+      "genre": "classical,  soft"
     },
     {
       "id": "2e24d291fdf1",
