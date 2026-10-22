@@ -11,6 +11,16 @@
       "stationTitle": "hide"
     },
     {
+      "id": "mvh6ybb6",
+      "name": "Fairuz فيروز",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/xkhnk4vee18uv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/LB"
+    },
+    {
       "id": "8daa61993a5d",
       "name": "Monte Carlo Doualiya",
       "shortTitle": "",
@@ -80,7 +90,7 @@
       "url": "http://stream.zeno.fm/577v5g7meg8uv",
       "icon": "https://cdn-profiles.tunein.com/s87938/images/logod.jpg?t=638880392580000000",
       "share": true,
-      "stationTitle": "left"
+      "stationTitle": "hide"
     },
     {
       "id": "mv0edjaq",
@@ -358,6 +368,276 @@
       "share": true,
       "stationTitle": "left",
       "website": "https://www.radioplug.co.uk/channel/Le-Figaro-Radio"
+    },
+    {
+      "id": "mvbzher5",
+      "name": "Zamanalwasl Radio",
+      "shortTitle": "",
+      "url": "https://zamanalwaslradio.out.airtime.pro/zamanalwaslradio_a",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://streamurl.link/station/zamanalwasl-radio/"
+    },
+    {
+      "id": "mvh4fn2p",
+      "name": "Just Easy",
+      "shortTitle": "",
+      "url": "https://stream.laut.fm/just-easy",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://streamurl.link/station/just-easy/",
+      "genre": "Easy Listening",
+      "language": "German"
+    },
+    {
+      "id": "mvh4sdsh",
+      "name": "Instrumentals Forever",
+      "shortTitle": "",
+      "url": "https://c30.radioboss.fm/stream/1031",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://streamurl.link/station/instrumentals-forever/",
+      "genre": "Easy Listening"
+    },
+    {
+      "id": "mvh4yivd",
+      "name": "Relaxation",
+      "shortTitle": "",
+      "url": "https://stream.laut.fm/relaxation",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://streamurl.link/station/relaxation/"
+    },
+    {
+      "id": "mvh5ej7l",
+      "name": "Radio Luce Classics",
+      "shortTitle": "",
+      "url": "https://c30.radioboss.fm:8467/luceclassics",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://stations.radioboss.fm/r/Radioluceclassics"
+    },
+    {
+      "id": "mvh62xs1",
+      "name": "ejecutivosRADIO",
+      "shortTitle": "",
+      "url": "http://163.172.77.142:8411/stream/1/",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "genre": "Instrumental, Easy, jazz"
+    },
+    {
+      "id": "mvh6ew0y",
+      "name": "Radio Melody Next Gen",
+      "shortTitle": "",
+      "url": "http://sc2.streamingpulse.com:8014/stream/1/",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "http://www.radiomelody.net",
+      "genre": "oldies"
+    },
+    {
+      "id": "mvh6rp36",
+      "name": "Abdel Halim Hafez عبدالحليم حافظ",
+      "shortTitle": "Abdel Halim",
+      "url": "https://stream.zeno.fm/8a4eqkd0pnhvv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/EG?page=1&https=1"
+    },
+    {
+      "id": "mvh72gze",
+      "name": "رحبانيات",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/4g8xck48kfhvv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/LB"
+    },
+    {
+      "id": "mvh75cu2",
+      "name": "راديو عالبال",
+      "shortTitle": "",
+      "url": "https://albal-lbnet2.radioca.st/stream.mp3",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/LB"
+    },
+    {
+      "id": "mvh7bi6q",
+      "name": "voice of Grace",
+      "shortTitle": "",
+      "url": "https://securestreams5.reliastream.com:1820/;l",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7g38i",
+      "name": "Al Karma FM",
+      "shortTitle": "",
+      "url": "https://broadcast.shoutstream.co.uk/stream/8112",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/SY"
+    },
+    {
+      "id": "mvh7i7j6",
+      "name": "Tayf Fm - راديو طيف - صدى السوريين",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/xbohf8qf5uauv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/SY"
+    },
+    {
+      "id": "mvh7jay2",
+      "name": "Rayan FM",
+      "shortTitle": "",
+      "url": "https://broadcast.shoutstream.co.uk:8078/stream",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7m3wa",
+      "name": "Radio Nasaem راديو نسائم",
+      "shortTitle": "",
+      "url": "https://stream.zeno.fm/u1wbm3k7gxquv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7mkb6",
+      "name": "Damascus Radio إذاعة دمشق",
+      "shortTitle": "",
+      "url": "https://stream.damasradio.fm/radio",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7owle",
+      "name": "Nasaem Syria Radio | Breezes Syria",
+      "shortTitle": "",
+      "url": "https://stream-69.zeno.fm/u1wbm3k7gxquv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7s1d6",
+      "name": "Emaar FM Radio",
+      "shortTitle": "",
+      "url": "https://stream-149.zeno.fm/4luag56o066uv",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7wi2i",
+      "name": "Medina FM Tarab (128 kbps)",
+      "shortTitle": "",
+      "url": "https://medinatarab.ice.infomaniak.ch/medinatarab-128.mp3",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh7z5xu",
+      "name": "U RADIO",
+      "shortTitle": "",
+      "url": "https://uradio-aac.ice.infomaniak.ch/uradio.aac",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh87goq",
+      "name": "Europe 1",
+      "shortTitle": "",
+      "url": "https://stream.europe1.fr/europe1.aac",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "genre": "news_talk"
+    },
+    {
+      "id": "mvh8a8qy",
+      "name": "Nostalgie HQ",
+      "shortTitle": "",
+      "url": "https://streaming.nrjaudio.fm/oua8a3w2dqao",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh8c32y",
+      "name": "Sud Radio",
+      "shortTitle": "",
+      "url": "https://ice.creacast.com/sudradio",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left",
+      "website": "https://www.freqtrail.com/stations/FR?page=1&https=1"
+    },
+    {
+      "id": "mvh8cx96",
+      "name": "Radio Classique",
+      "shortTitle": "",
+      "url": "https://str0.creacast.com/classique1",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh8ezhe",
+      "name": "BFM radio",
+      "shortTitle": "",
+      "url": "https://audio.bfmtv.com/bfmradio_128.mp3",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh8hmy2",
+      "name": "Nostalgie",
+      "shortTitle": "",
+      "url": "https://streaming.nrjaudio.fm/ouwgwqsk6j4d",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvh8kvre",
+      "name": "France Inter",
+      "shortTitle": "",
+      "url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
+    },
+    {
+      "id": "mvhzbcf6",
+      "name": "Radio Swiss Classic:",
+      "shortTitle": "",
+      "url": "https://livestreaming-node-4.srg-ssr.ch/srgssr/rsc_de/aac/96",
+      "icon": "",
+      "share": true,
+      "stationTitle": "left"
     }
   ]
 }
